@@ -1,3 +1,4 @@
+
 # M3D-AAAI2019
 
 This is the code of AAAI2019 paper, "Multi-scale 3D Convolution Network for Video Based Person Re-Identification" If you are using the code/model provided here in a publication, please consider citing our paper:
@@ -11,3 +12,11 @@ This is the code of AAAI2019 paper, "Multi-scale 3D Convolution Network for Vide
       year={2018}
     }
     
+
+## Prerequisites
+
+- Python 2.7
+- GPU 
+- Numpy
+- Pytorch 0.3
+- Torchvision
