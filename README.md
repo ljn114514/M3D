@@ -20,3 +20,8 @@ This is the code of AAAI2019 paper, "Multi-scale 3D Convolution Network for Vide
 - Numpy
 - Pytorch 0.3
 - Torchvision
+
+
+Some extracted feature and model for MARS dataset:
+Link：https://pan.baidu.com/s/1hWkNcxwtZDuD7uk-_LkROg 
+Password：9lra
