@@ -20,7 +20,7 @@ batch_size = 128
 normalizer = transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 transform = transforms.Compose([ transforms.ToTensor(),  normalizer, ])
 
-img_dir = '../Mars/bbox_train/'
+img_dir = 'YourDataset/Mars/bbox_train/'
 train_dataset = dataset.imgdataset(dataset_dir=img_dir, txt_path='list/list_train.txt', new_height=256, new_width=128, transform=transform)
 train_loader = torch.utils.data.DataLoader(dataset = train_dataset, batch_size = batch_size, shuffle = True, num_workers = 4)
 
