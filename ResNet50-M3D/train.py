@@ -25,8 +25,8 @@ train_dataset = model.dataset.videodataset(dataset_dir=img_dir, txt_path='list_t
 train_loader = torch.utils.data.DataLoader(dataset = train_dataset, batch_size = batch_size, shuffle = True, num_workers = 4)
 
 ###########   MODEL   ###########
-#resnet50': 'https://download.pytorch.org/models/resnet50-19c8e357.pth
-model = model.M3D.resnet50(pretrained='resnet50-19c8e357.pth', num_classes=625, train=True)
+#ResNet50-2d.pth: use the pretrained model from M3D/ResNet50-2d for initialization
+model = model.M3D.resnet50(pretrained='ResNet50-2d.pth', num_classes=625, train=True)
 model.cuda()
 criterion = nn.CrossEntropyLoss()
 
